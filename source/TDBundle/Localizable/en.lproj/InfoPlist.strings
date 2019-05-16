@@ -1,0 +1,8 @@
+/* Localized versions of Info.plist keys */
+CFBundleDisplayName = "tTranslator";
+NSCameraUsageDescription = "";
+NSPhotoLibraryUsageDescription = "";
+
+SHORTCUT_QUICKTRANSLATE = "Quick translte";
+SHORTCUT_PASTETRANSLATE = "Paste and translate";
+SHORTCUT_QUICKSHARE = "Quick share";

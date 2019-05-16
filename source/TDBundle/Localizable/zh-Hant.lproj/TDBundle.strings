@@ -1,0 +1,37 @@
+/* 
+  TDBundle.strings
+  tinyDict
+
+  Created by guangbool on 2017/4/12.
+  Copyright © 2017年 bool. All rights reserved.
+*/
+
+"lang_en" = "英文";
+"lang_zh" = "簡中";
+"lang_cht" = "繁中";
+"lang_ara" = "阿拉伯";
+"lang_est" = "斯洛文尼亞";
+"lang_bul" = "保加利亞";
+"lang_pl" = "波蘭";
+"lang_dan" = "丹麥";
+"lang_de" = "德語";
+"lang_ru" = "俄語";
+"lang_fra" = "法語";
+"lang_fin" = "芬蘭";
+"lang_kor" = "朝鮮";
+"lang_nl" = "荷蘭";
+"lang_cs" = "捷克";
+"lang_rom" = "羅馬尼亞";
+"lang_pt" = "葡萄牙";
+"lang_jp" = "日語";
+"lang_swe" = "瑞典";
+"lang_slo" = "斯洛文尼亞";
+"lang_th" = "泰語";
+"lang_spa" = "西班牙";
+"lang_el" = "希臘";
+"lang_hu" = "匈牙利";
+"lang_it" = "義大利";
+"lang_vie" = "越南";
+"copied" = "已拷貝";
+"Translating..." = "正在翻譯中...";
+"Sorry, can't translate it!" = "😳這厮竟然翻譯不了！";

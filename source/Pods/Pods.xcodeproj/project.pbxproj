@@ -1,0 +1,1226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AB18FBC86FD0BA33745710CEE60D9E /* UIApplication+ViewControllerHandy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A80A7C670C48B8C1867B840219A19E2 /* UIApplication+ViewControllerHandy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CEF0C8769662CEC14649C5FD2CBE0EB /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8723ABC918D00D7C437C295CDAC7F9 /* Aspects-dummy.m */; };
+		16168930F525BD07A5EEEB1CEFD34773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		21C0BE62B763836780DC1F2BD8F28EF3 /* BOOLoadMoreController.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB8F86F5188CFEC98003AAF748CAA8A /* BOOLoadMoreController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		254990FC48FA4DC0386AB00BFD0B5974 /* YYKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6904DC15B94C11B0854415BE7F27D34B /* YYKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		313F20AAADE321493985FCFF87BA5C68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		31F7C87CF21A10C5733C6B170501C43D /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86154E6E8D61F0D643DA8FFA5AA534 /* MGSwipeButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33A0C42E7148852D211F6014C4B05C96 /* MGSwipeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E2AE01B7D0D312187317597B5D8F60 /* MGSwipeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41409C0736FFC5A9B9C4F05981F1BBB9 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = B04ED52C37FFA66D29533E4432B075DB /* UITextView+Placeholder.m */; };
+		4825DA9C56C675202BA04B9A5C08F2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		51A91E8B69A943DA288F2797B1A85B12 /* YYKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B734EA5CE0372C5EFEECE5B3EF3DFD67 /* YYKeyboardManager-dummy.m */; };
+		53025A424539BFB9F57B47DE5572AEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6318CFF57C5697891E9B45A4868E5F8C /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 89050F7DB8BD9CE12A287CC85E153FF2 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6509E74B78C608D91D517578A5902C54 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A7676820D3A775D20D1CDD23B49AC /* MGSwipeTableCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		69D91EFBA31F22790254B30B9EE7911F /* YYKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 505F500D818EF733DAD90DF58808CDD1 /* YYKeyboardManager.m */; };
+		711F970B3936C89DB6A4456CEFC277AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8E1305036234913753F267C34DEE9236 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 122D7E6678AF45B51D8DB628048EC368 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C4B1FA503D9C4D7B588B4D642E1CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		94C583D7B5DE745B4E7A6CE347D65C0D /* BOOLoadMoreController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B81767B13C9E05468560F4676139D /* BOOLoadMoreController-dummy.m */; };
+		99BA83D0022A68864DC669BBB680928B /* MGSwipeTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1206A50A1D5CA5177161F1BD7A362 /* MGSwipeTableCell-dummy.m */; };
+		B2EA5F72406A6317F2671F2CD2123D06 /* UIApplication+ViewControllerHandy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7C9F60FAD3573B633B1D82B30E0D4 /* UIApplication+ViewControllerHandy.m */; };
+		B6786794B51989D80D677EF709541AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		B734D1933788D7A80009F0DE0B3ACCBB /* UITextView+Placeholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F4751F99E88F0F2887B2A883CFE9E5 /* UITextView+Placeholder-dummy.m */; };
+		BD684EFE8218B3ADB784A886247413EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CB3D7879226556A63CAEB21B751D6541 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		CC511F70453EE828538F093B10006879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D77458A1CE4FFFD8846599C02325966B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C653A9CD487819F715165FE366020EC /* Aspects.m */; };
+		D8DC2C0960FC676CD43DB9EC3A4E0CF7 /* Pods-tinyDict-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12943C17B88DF79A0635E25A265120BE /* Pods-tinyDict-dummy.m */; };
+		EA70EDDA3F70AE6622DBC500F7B2D787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EC394C0DBD01A7495BF37DAF25B97E8E /* UIApplication-ViewControllerHandy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E499B9EA20CBC857D6364AA4C71A09 /* UIApplication-ViewControllerHandy-dummy.m */; };
+		F47CC8CFF26A311ADE7987B50729EDEE /* MGSwipeTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D84E77021D7F9C645A7622AE8C5A30 /* MGSwipeTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC5BDCC1ABF3A7A041ECB1C7333CBF05 /* BOOLoadMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8C30A54EA5ED17B09A9FB36E1114D /* BOOLoadMoreController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		129EC826C4756DC235184C673035FCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1637E3F84468A73223E2D0AD10426CA1;
+			remoteInfo = BOOLoadMoreController;
+		};
+		18F2EDC67A2B9C15F5030A491A366966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46050EF90813DF2D7F9E84FC8A571F3;
+			remoteInfo = YYKeyboardManager;
+		};
+		53AAF583DA496B43168067252CE440E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E978BD02A9AD66B6F626E20B032D6B3;
+			remoteInfo = "UIApplication-ViewControllerHandy";
+		};
+		97C5DFED6C72EF8DC746B28FC9C7BECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF917559D652B0069B5899B5954DDBD;
+			remoteInfo = "UITextView+Placeholder";
+		};
+		C089EC8878CA285EB58510BF0930FDC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AFBF4F2CD231A7499E3B7813A16837;
+			remoteInfo = MGSwipeTableCell;
+		};
+		CD1CECF73CE81A0AF988418FD68AD694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C5FD310966070D9553E5B95C59641B;
+			remoteInfo = Aspects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012AA388FF0ED404874CDBFA90851C87 /* MGSwipeTableCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGSwipeTableCell.xcconfig; sourceTree = "<group>"; };
+		03D84E77021D7F9C645A7622AE8C5A30 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = MGSwipeTableCell/MGSwipeTableCell.h; sourceTree = "<group>"; };
+		0C653A9CD487819F715165FE366020EC /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		0D825D79E1EBF37C7A4F75410D26122D /* Pods-tinyDict.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinyDict.release.xcconfig"; sourceTree = "<group>"; };
+		122D7E6678AF45B51D8DB628048EC368 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "Sources/UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		12943C17B88DF79A0635E25A265120BE /* Pods-tinyDict-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinyDict-dummy.m"; sourceTree = "<group>"; };
+		21FAAE75B1DD1095FE4889604A28109C /* Pods-tinyDict-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinyDict-resources.sh"; sourceTree = "<group>"; };
+		2DC0651F66976788333E61CABFE2B96B /* BOOLoadMoreController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOOLoadMoreController.xcconfig; sourceTree = "<group>"; };
+		31F09FF61D50D5C243B6B554A94A151D /* YYKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		33CDAFD87398E07B859CA95ADCB73B1D /* libPods-tinyDict.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-tinyDict.a"; path = "libPods-tinyDict.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BA14CA5D1A5131BDC0CC3595E8D50B /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		497D88E18678420B1AC395449775977E /* Pods-tinyDict-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinyDict-frameworks.sh"; sourceTree = "<group>"; };
+		4CC8C30A54EA5ED17B09A9FB36E1114D /* BOOLoadMoreController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOOLoadMoreController.m; path = Classes/BOOLoadMoreController.m; sourceTree = "<group>"; };
+		505F500D818EF733DAD90DF58808CDD1 /* YYKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKeyboardManager.m; path = YYKeyboardManager/YYKeyboardManager.m; sourceTree = "<group>"; };
+		515B81767B13C9E05468560F4676139D /* BOOLoadMoreController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BOOLoadMoreController-dummy.m"; sourceTree = "<group>"; };
+		5AF30447A2FEE53AD6DC91C6C8ED5037 /* YYKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		5E8723ABC918D00D7C437C295CDAC7F9 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		6904DC15B94C11B0854415BE7F27D34B /* YYKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKeyboardManager.h; path = YYKeyboardManager/YYKeyboardManager.h; sourceTree = "<group>"; };
+		6B6BE6C22816E2AF92A7DC02E6A2C737 /* UITextView+Placeholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-prefix.pch"; sourceTree = "<group>"; };
+		718511F30F81CD7848D1A544C877298E /* BOOLoadMoreController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOOLoadMoreController-prefix.pch"; sourceTree = "<group>"; };
+		72F4751F99E88F0F2887B2A883CFE9E5 /* UITextView+Placeholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder-dummy.m"; sourceTree = "<group>"; };
+		76A5F04F091C30F99F3683109A7E121B /* UITextView+Placeholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITextView+Placeholder.xcconfig"; sourceTree = "<group>"; };
+		79E2AE01B7D0D312187317597B5D8F60 /* MGSwipeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = MGSwipeTableCell/MGSwipeButton.h; sourceTree = "<group>"; };
+		7F4A1DF2AEB107DD25626F5AEC1405A7 /* Pods-tinyDict-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinyDict-acknowledgements.plist"; sourceTree = "<group>"; };
+		8142DC52510F6CBB86953866518679B6 /* libUITextView+Placeholder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUITextView+Placeholder.a"; path = "libUITextView+Placeholder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8368E8BBDBDB95B60FF4721D61D52C95 /* libYYKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYKeyboardManager.a; path = libYYKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		841FD3B25E4BB26E6ABB3918FBF36C34 /* UIApplication-ViewControllerHandy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication-ViewControllerHandy-prefix.pch"; sourceTree = "<group>"; };
+		89050F7DB8BD9CE12A287CC85E153FF2 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		8A80A7C670C48B8C1867B840219A19E2 /* UIApplication+ViewControllerHandy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+ViewControllerHandy.h"; path = "Classes/UIApplication+ViewControllerHandy.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1B5FB91A85CF7A7B12773C3F72384D1 /* Pods-tinyDict-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinyDict-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7A1206A50A1D5CA5177161F1BD7A362 /* MGSwipeTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGSwipeTableCell-dummy.m"; sourceTree = "<group>"; };
+		ABE6E04FDFCBFE2F9E79EEBDFF5D76EB /* Pods-tinyDict.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinyDict.debug.xcconfig"; sourceTree = "<group>"; };
+		B04ED52C37FFA66D29533E4432B075DB /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "Sources/UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		B10A3CB72238F037BF93E67FD5538F51 /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAspects.a; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A7C9F60FAD3573B633B1D82B30E0D4 /* UIApplication+ViewControllerHandy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+ViewControllerHandy.m"; path = "Classes/UIApplication+ViewControllerHandy.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B734EA5CE0372C5EFEECE5B3EF3DFD67 /* YYKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		B96736A8E617037B36196434DA8A04F7 /* UIApplication-ViewControllerHandy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIApplication-ViewControllerHandy.xcconfig"; sourceTree = "<group>"; };
+		BF2A7676820D3A775D20D1CDD23B49AC /* MGSwipeTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
+		C4E499B9EA20CBC857D6364AA4C71A09 /* UIApplication-ViewControllerHandy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication-ViewControllerHandy-dummy.m"; sourceTree = "<group>"; };
+		D3904788C071C41BDC038665B00EF384 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB86154E6E8D61F0D643DA8FFA5AA534 /* MGSwipeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
+		DF58BB9CC00FF06B263901EBFB69B5D2 /* MGSwipeTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-prefix.pch"; sourceTree = "<group>"; };
+		DFB8F86F5188CFEC98003AAF748CAA8A /* BOOLoadMoreController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOOLoadMoreController.h; path = Classes/BOOLoadMoreController.h; sourceTree = "<group>"; };
+		F1980100ADDB1A33999B09C52D37DAF2 /* libUIApplication-ViewControllerHandy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUIApplication-ViewControllerHandy.a"; path = "libUIApplication-ViewControllerHandy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE94D12E748EC1751700AB1B1E17C04 /* libMGSwipeTableCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMGSwipeTableCell.a; path = libMGSwipeTableCell.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5D5FDEEF832BE8C96B588B6A548557 /* libBOOLoadMoreController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBOOLoadMoreController.a; path = libBOOLoadMoreController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2016E34C10B428CF54CAE42B0E0AD92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711F970B3936C89DB6A4456CEFC277AB /* Foundation.framework in Frameworks */,
+				313F20AAADE321493985FCFF87BA5C68 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2179F945B3A8B0209A38EBE666CED2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD684EFE8218B3ADB784A886247413EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F88CD661E68BF84F949F2E96D7ADC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53025A424539BFB9F57B47DE5572AEEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFFE034AB8A570463184313F19E2AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6786794B51989D80D677EF709541AFC /* Foundation.framework in Frameworks */,
+				CB3D7879226556A63CAEB21B751D6541 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BD1118CF45C726A6C9993872DABCFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC511F70453EE828538F093B10006879 /* Foundation.framework in Frameworks */,
+				16168930F525BD07A5EEEB1CEFD34773 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BAD0195F5EF96AE4EDA24A0F528CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA70EDDA3F70AE6622DBC500F7B2D787 /* Foundation.framework in Frameworks */,
+				92C4B1FA503D9C4D7B588B4D642E1CA4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7BBE728C49110B1F0CD42AB3E4F3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4825DA9C56C675202BA04B9A5C08F2AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0522E9174B400469F6C75B860E062C23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B96736A8E617037B36196434DA8A04F7 /* UIApplication-ViewControllerHandy.xcconfig */,
+				C4E499B9EA20CBC857D6364AA4C71A09 /* UIApplication-ViewControllerHandy-dummy.m */,
+				841FD3B25E4BB26E6ABB3918FBF36C34 /* UIApplication-ViewControllerHandy-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIApplication-ViewControllerHandy";
+			sourceTree = "<group>";
+		};
+		0924299569BC5B31B33AF36FB74B8804 /* YYKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				6904DC15B94C11B0854415BE7F27D34B /* YYKeyboardManager.h */,
+				505F500D818EF733DAD90DF58808CDD1 /* YYKeyboardManager.m */,
+				E4647DE4726A7592811E58980F8ED98A /* Support Files */,
+			);
+			name = YYKeyboardManager;
+			path = YYKeyboardManager;
+			sourceTree = "<group>";
+		};
+		18705973E386636509B960F4BD46A9B5 /* MGSwipeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				79E2AE01B7D0D312187317597B5D8F60 /* MGSwipeButton.h */,
+				DB86154E6E8D61F0D643DA8FFA5AA534 /* MGSwipeButton.m */,
+				03D84E77021D7F9C645A7622AE8C5A30 /* MGSwipeTableCell.h */,
+				BF2A7676820D3A775D20D1CDD23B49AC /* MGSwipeTableCell.m */,
+				877F043D62E69B10C1BFD1DB4229C7DF /* Support Files */,
+			);
+			name = MGSwipeTableCell;
+			path = MGSwipeTableCell;
+			sourceTree = "<group>";
+		};
+		2F41DD90C7D0827F0B3549803E582A1D /* UIApplication-ViewControllerHandy */ = {
+			isa = PBXGroup;
+			children = (
+				8A80A7C670C48B8C1867B840219A19E2 /* UIApplication+ViewControllerHandy.h */,
+				B3A7C9F60FAD3573B633B1D82B30E0D4 /* UIApplication+ViewControllerHandy.m */,
+				0522E9174B400469F6C75B860E062C23 /* Support Files */,
+			);
+			name = "UIApplication-ViewControllerHandy";
+			path = "UIApplication-ViewControllerHandy";
+			sourceTree = "<group>";
+		};
+		38656AE7E52E3B888470F071E522B1BA /* UITextView+Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				122D7E6678AF45B51D8DB628048EC368 /* UITextView+Placeholder.h */,
+				B04ED52C37FFA66D29533E4432B075DB /* UITextView+Placeholder.m */,
+				3F640CC4DDCE58D252C20CB51110A8FD /* Support Files */,
+			);
+			name = "UITextView+Placeholder";
+			path = "UITextView+Placeholder";
+			sourceTree = "<group>";
+		};
+		3F640CC4DDCE58D252C20CB51110A8FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A5F04F091C30F99F3683109A7E121B /* UITextView+Placeholder.xcconfig */,
+				72F4751F99E88F0F2887B2A883CFE9E5 /* UITextView+Placeholder-dummy.m */,
+				6B6BE6C22816E2AF92A7DC02E6A2C737 /* UITextView+Placeholder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UITextView+Placeholder";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				83AF0AE07AA469AFAB589EE1218A2BB0 /* Pods */,
+				9302BA6D5C5F2215299C79B27FB16C34 /* Products */,
+				CDB43198E79DAA6D7F9690FCB4000193 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83AF0AE07AA469AFAB589EE1218A2BB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFC08FDB85258332E0D9A1EF34472CB7 /* Aspects */,
+				C103F4725CF8D0BE71F24E1A5A6C4A73 /* BOOLoadMoreController */,
+				18705973E386636509B960F4BD46A9B5 /* MGSwipeTableCell */,
+				2F41DD90C7D0827F0B3549803E582A1D /* UIApplication-ViewControllerHandy */,
+				38656AE7E52E3B888470F071E522B1BA /* UITextView+Placeholder */,
+				0924299569BC5B31B33AF36FB74B8804 /* YYKeyboardManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		877F043D62E69B10C1BFD1DB4229C7DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				012AA388FF0ED404874CDBFA90851C87 /* MGSwipeTableCell.xcconfig */,
+				A7A1206A50A1D5CA5177161F1BD7A362 /* MGSwipeTableCell-dummy.m */,
+				DF58BB9CC00FF06B263901EBFB69B5D2 /* MGSwipeTableCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGSwipeTableCell";
+			sourceTree = "<group>";
+		};
+		8951F029AB0835ED1585304E161852EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DC0651F66976788333E61CABFE2B96B /* BOOLoadMoreController.xcconfig */,
+				515B81767B13C9E05468560F4676139D /* BOOLoadMoreController-dummy.m */,
+				718511F30F81CD7848D1A544C877298E /* BOOLoadMoreController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BOOLoadMoreController";
+			sourceTree = "<group>";
+		};
+		9302BA6D5C5F2215299C79B27FB16C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10A3CB72238F037BF93E67FD5538F51 /* libAspects.a */,
+				FF5D5FDEEF832BE8C96B588B6A548557 /* libBOOLoadMoreController.a */,
+				FDE94D12E748EC1751700AB1B1E17C04 /* libMGSwipeTableCell.a */,
+				33CDAFD87398E07B859CA95ADCB73B1D /* libPods-tinyDict.a */,
+				F1980100ADDB1A33999B09C52D37DAF2 /* libUIApplication-ViewControllerHandy.a */,
+				8142DC52510F6CBB86953866518679B6 /* libUITextView+Placeholder.a */,
+				8368E8BBDBDB95B60FF4721D61D52C95 /* libYYKeyboardManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9628A44044DA2852D2085C302705F7 /* Pods-tinyDict */ = {
+			isa = PBXGroup;
+			children = (
+				A1B5FB91A85CF7A7B12773C3F72384D1 /* Pods-tinyDict-acknowledgements.markdown */,
+				7F4A1DF2AEB107DD25626F5AEC1405A7 /* Pods-tinyDict-acknowledgements.plist */,
+				12943C17B88DF79A0635E25A265120BE /* Pods-tinyDict-dummy.m */,
+				497D88E18678420B1AC395449775977E /* Pods-tinyDict-frameworks.sh */,
+				21FAAE75B1DD1095FE4889604A28109C /* Pods-tinyDict-resources.sh */,
+				ABE6E04FDFCBFE2F9E79EEBDFF5D76EB /* Pods-tinyDict.debug.xcconfig */,
+				0D825D79E1EBF37C7A4F75410D26122D /* Pods-tinyDict.release.xcconfig */,
+			);
+			name = "Pods-tinyDict";
+			path = "Target Support Files/Pods-tinyDict";
+			sourceTree = "<group>";
+		};
+		C103F4725CF8D0BE71F24E1A5A6C4A73 /* BOOLoadMoreController */ = {
+			isa = PBXGroup;
+			children = (
+				DFB8F86F5188CFEC98003AAF748CAA8A /* BOOLoadMoreController.h */,
+				4CC8C30A54EA5ED17B09A9FB36E1114D /* BOOLoadMoreController.m */,
+				8951F029AB0835ED1585304E161852EB /* Support Files */,
+			);
+			name = BOOLoadMoreController;
+			path = BOOLoadMoreController;
+			sourceTree = "<group>";
+		};
+		C6E878519D905EE1671E8A8B0C46BA19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3904788C071C41BDC038665B00EF384 /* Aspects.xcconfig */,
+				5E8723ABC918D00D7C437C295CDAC7F9 /* Aspects-dummy.m */,
+				42BA14CA5D1A5131BDC0CC3595E8D50B /* Aspects-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		CDB43198E79DAA6D7F9690FCB4000193 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE9628A44044DA2852D2085C302705F7 /* Pods-tinyDict */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E4647DE4726A7592811E58980F8ED98A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31F09FF61D50D5C243B6B554A94A151D /* YYKeyboardManager.xcconfig */,
+				B734EA5CE0372C5EFEECE5B3EF3DFD67 /* YYKeyboardManager-dummy.m */,
+				5AF30447A2FEE53AD6DC91C6C8ED5037 /* YYKeyboardManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYKeyboardManager";
+			sourceTree = "<group>";
+		};
+		FFC08FDB85258332E0D9A1EF34472CB7 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				89050F7DB8BD9CE12A287CC85E153FF2 /* Aspects.h */,
+				0C653A9CD487819F715165FE366020EC /* Aspects.m */,
+				C6E878519D905EE1671E8A8B0C46BA19 /* Support Files */,
+			);
+			name = Aspects;
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0838161285D7F3F57DBEEAF1DF631472 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6318CFF57C5697891E9B45A4868E5F8C /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7798F2167079FCA24F6B12AB9F31C03E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C0BE62B763836780DC1F2BD8F28EF3 /* BOOLoadMoreController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0B29499312CB331AA798788F387607 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AB18FBC86FD0BA33745710CEE60D9E /* UIApplication+ViewControllerHandy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F30A98F7DF2B56B6A23687BCE8D6929 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254990FC48FA4DC0386AB00BFD0B5974 /* YYKeyboardManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64AE51AB7747B12C2C9311531FB7F1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A0C42E7148852D211F6014C4B05C96 /* MGSwipeButton.h in Headers */,
+				F47CC8CFF26A311ADE7987B50729EDEE /* MGSwipeTableCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40A2EF5754FD60DA57BB39152E7B501 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1305036234913753F267C34DEE9236 /* UITextView+Placeholder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1637E3F84468A73223E2D0AD10426CA1 /* BOOLoadMoreController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D69487B08023F467272982FAB8DE25 /* Build configuration list for PBXNativeTarget "BOOLoadMoreController" */;
+			buildPhases = (
+				CC02BC9E5E24131AB4B02A8003FA49F2 /* Sources */,
+				5AFFE034AB8A570463184313F19E2AAF /* Frameworks */,
+				7798F2167079FCA24F6B12AB9F31C03E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BOOLoadMoreController;
+			productName = BOOLoadMoreController;
+			productReference = FF5D5FDEEF832BE8C96B588B6A548557 /* libBOOLoadMoreController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1E978BD02A9AD66B6F626E20B032D6B3 /* UIApplication-ViewControllerHandy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC85F0446E0AE707CD2C21DBB647A3BC /* Build configuration list for PBXNativeTarget "UIApplication-ViewControllerHandy" */;
+			buildPhases = (
+				83BC64588862C7652396D7937B5A9397 /* Sources */,
+				A7BAD0195F5EF96AE4EDA24A0F528CF7 /* Frameworks */,
+				9A0B29499312CB331AA798788F387607 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIApplication-ViewControllerHandy";
+			productName = "UIApplication-ViewControllerHandy";
+			productReference = F1980100ADDB1A33999B09C52D37DAF2 /* libUIApplication-ViewControllerHandy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		43AFBF4F2CD231A7499E3B7813A16837 /* MGSwipeTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE982675D04C334946ED5FFBE6800FE /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */;
+			buildPhases = (
+				23DC3FE76D27F2AE373BD2F6D360ADDA /* Sources */,
+				2F88CD661E68BF84F949F2E96D7ADC75 /* Frameworks */,
+				C64AE51AB7747B12C2C9311531FB7F1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSwipeTableCell;
+			productName = MGSwipeTableCell;
+			productReference = FDE94D12E748EC1751700AB1B1E17C04 /* libMGSwipeTableCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACF917559D652B0069B5899B5954DDBD /* UITextView+Placeholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFBA974F33FEF43D0AAD80BEC22CF0C /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */;
+			buildPhases = (
+				AAE0865B66C29FA7024D98A837BA1936 /* Sources */,
+				2016E34C10B428CF54CAE42B0E0AD92B /* Frameworks */,
+				E40A2EF5754FD60DA57BB39152E7B501 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextView+Placeholder";
+			productName = "UITextView+Placeholder";
+			productReference = 8142DC52510F6CBB86953866518679B6 /* libUITextView+Placeholder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE1AA82CBC6852151FBB041BBDFBF868 /* Pods-tinyDict */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5072A5B83DBA35ADFAEA77354067791C /* Build configuration list for PBXNativeTarget "Pods-tinyDict" */;
+			buildPhases = (
+				A0FA509655A058345DC42BB81A0A0881 /* Sources */,
+				2179F945B3A8B0209A38EBE666CED2B5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B81428C9F529EF51297C7EC6CF97730 /* PBXTargetDependency */,
+				281C125D3A7C43B5D1FE20FB6BDF9E7A /* PBXTargetDependency */,
+				FAE5E9BAF456D720F742790E7C0C02B7 /* PBXTargetDependency */,
+				01B4D7D4746444375C289BA45A643470 /* PBXTargetDependency */,
+				83F78203D00F0D1EE4CF6914B07CC4A7 /* PBXTargetDependency */,
+				87143CBDECECA16F21DB4A76DCCEC781 /* PBXTargetDependency */,
+			);
+			name = "Pods-tinyDict";
+			productName = "Pods-tinyDict";
+			productReference = 33CDAFD87398E07B859CA95ADCB73B1D /* libPods-tinyDict.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7C5FD310966070D9553E5B95C59641B /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDD598D97160FAFC23522D96D16607C /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				333DA74B4E797F48FFF01D823B85E3CC /* Sources */,
+				FF7BBE728C49110B1F0CD42AB3E4F3AB /* Frameworks */,
+				0838161285D7F3F57DBEEAF1DF631472 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = B10A3CB72238F037BF93E67FD5538F51 /* libAspects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F46050EF90813DF2D7F9E84FC8A571F3 /* YYKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00B085BAAFDA99468141C2005C3875E /* Build configuration list for PBXNativeTarget "YYKeyboardManager" */;
+			buildPhases = (
+				FF55257DF6CF13BBFB1D8C53507EB05D /* Sources */,
+				68BD1118CF45C726A6C9993872DABCFB /* Frameworks */,
+				9F30A98F7DF2B56B6A23687BCE8D6929 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYKeyboardManager;
+			productName = YYKeyboardManager;
+			productReference = 8368E8BBDBDB95B60FF4721D61D52C95 /* libYYKeyboardManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9302BA6D5C5F2215299C79B27FB16C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C5FD310966070D9553E5B95C59641B /* Aspects */,
+				1637E3F84468A73223E2D0AD10426CA1 /* BOOLoadMoreController */,
+				43AFBF4F2CD231A7499E3B7813A16837 /* MGSwipeTableCell */,
+				BE1AA82CBC6852151FBB041BBDFBF868 /* Pods-tinyDict */,
+				1E978BD02A9AD66B6F626E20B032D6B3 /* UIApplication-ViewControllerHandy */,
+				ACF917559D652B0069B5899B5954DDBD /* UITextView+Placeholder */,
+				F46050EF90813DF2D7F9E84FC8A571F3 /* YYKeyboardManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23DC3FE76D27F2AE373BD2F6D360ADDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F7C87CF21A10C5733C6B170501C43D /* MGSwipeButton.m in Sources */,
+				99BA83D0022A68864DC669BBB680928B /* MGSwipeTableCell-dummy.m in Sources */,
+				6509E74B78C608D91D517578A5902C54 /* MGSwipeTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333DA74B4E797F48FFF01D823B85E3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEF0C8769662CEC14649C5FD2CBE0EB /* Aspects-dummy.m in Sources */,
+				D77458A1CE4FFFD8846599C02325966B /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC64588862C7652396D7937B5A9397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA5F72406A6317F2671F2CD2123D06 /* UIApplication+ViewControllerHandy.m in Sources */,
+				EC394C0DBD01A7495BF37DAF25B97E8E /* UIApplication-ViewControllerHandy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FA509655A058345DC42BB81A0A0881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DC2C0960FC676CD43DB9EC3A4E0CF7 /* Pods-tinyDict-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE0865B66C29FA7024D98A837BA1936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B734D1933788D7A80009F0DE0B3ACCBB /* UITextView+Placeholder-dummy.m in Sources */,
+				41409C0736FFC5A9B9C4F05981F1BBB9 /* UITextView+Placeholder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC02BC9E5E24131AB4B02A8003FA49F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C583D7B5DE745B4E7A6CE347D65C0D /* BOOLoadMoreController-dummy.m in Sources */,
+				FC5BDCC1ABF3A7A041ECB1C7333CBF05 /* BOOLoadMoreController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF55257DF6CF13BBFB1D8C53507EB05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A91E8B69A943DA288F2797B1A85B12 /* YYKeyboardManager-dummy.m in Sources */,
+				69D91EFBA31F22790254B30B9EE7911F /* YYKeyboardManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01B4D7D4746444375C289BA45A643470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIApplication-ViewControllerHandy";
+			target = 1E978BD02A9AD66B6F626E20B032D6B3 /* UIApplication-ViewControllerHandy */;
+			targetProxy = 53AAF583DA496B43168067252CE440E1 /* PBXContainerItemProxy */;
+		};
+		281C125D3A7C43B5D1FE20FB6BDF9E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BOOLoadMoreController;
+			target = 1637E3F84468A73223E2D0AD10426CA1 /* BOOLoadMoreController */;
+			targetProxy = 129EC826C4756DC235184C673035FCC2 /* PBXContainerItemProxy */;
+		};
+		4B81428C9F529EF51297C7EC6CF97730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C7C5FD310966070D9553E5B95C59641B /* Aspects */;
+			targetProxy = CD1CECF73CE81A0AF988418FD68AD694 /* PBXContainerItemProxy */;
+		};
+		83F78203D00F0D1EE4CF6914B07CC4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITextView+Placeholder";
+			target = ACF917559D652B0069B5899B5954DDBD /* UITextView+Placeholder */;
+			targetProxy = 97C5DFED6C72EF8DC746B28FC9C7BECF /* PBXContainerItemProxy */;
+		};
+		87143CBDECECA16F21DB4A76DCCEC781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYKeyboardManager;
+			target = F46050EF90813DF2D7F9E84FC8A571F3 /* YYKeyboardManager */;
+			targetProxy = 18F2EDC67A2B9C15F5030A491A366966 /* PBXContainerItemProxy */;
+		};
+		FAE5E9BAF456D720F742790E7C0C02B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGSwipeTableCell;
+			target = 43AFBF4F2CD231A7499E3B7813A16837 /* MGSwipeTableCell */;
+			targetProxy = C089EC8878CA285EB58510BF0930FDC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01AD86A8AE64939897B3DCD70F424207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96736A8E617037B36196434DA8A04F7 /* UIApplication-ViewControllerHandy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIApplication-ViewControllerHandy/UIApplication-ViewControllerHandy-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		27669A4BAFE57FAE1465D184FCFBE5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F09FF61D50D5C243B6B554A94A151D /* YYKeyboardManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYKeyboardManager/YYKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		36FA3057D8CD706C0DDB121EE87A8AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96736A8E617037B36196434DA8A04F7 /* UIApplication-ViewControllerHandy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIApplication-ViewControllerHandy/UIApplication-ViewControllerHandy-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69233358F27287C849BD000FFE1133D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC0651F66976788333E61CABFE2B96B /* BOOLoadMoreController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BOOLoadMoreController/BOOLoadMoreController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C316EC1C9660FBD6475B6513DE61DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3904788C071C41BDC038665B00EF384 /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84893E102A1A1FB8FAE0E269E0B3326A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3904788C071C41BDC038665B00EF384 /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9524470C3EF05ADC6D7AB2DB5C9C832D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012AA388FF0ED404874CDBFA90851C87 /* MGSwipeTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9818E370171AAD4DF3DBAB4569FC9ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC0651F66976788333E61CABFE2B96B /* BOOLoadMoreController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BOOLoadMoreController/BOOLoadMoreController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B5EB3B000B42BF386A15A0C0879B3E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F09FF61D50D5C243B6B554A94A151D /* YYKeyboardManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYKeyboardManager/YYKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B62829AD933BD85AD7DC3D72A39815DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A5F04F091C30F99F3683109A7E121B /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF03BD450999111DBD3951688D2A4978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE6E04FDFCBFE2F9E79EEBDFF5D76EB /* Pods-tinyDict.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD3226830B69AB38A249C34EE882936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012AA388FF0ED404874CDBFA90851C87 /* MGSwipeTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F878B11BA31DAF25BF865886B0D8ACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D825D79E1EBF37C7A4F75410D26122D /* Pods-tinyDict.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FC1EFD51AE94F879736B9AD3FDC75916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A5F04F091C30F99F3683109A7E121B /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D69487B08023F467272982FAB8DE25 /* Build configuration list for PBXNativeTarget "BOOLoadMoreController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69233358F27287C849BD000FFE1133D3 /* Debug */,
+				9818E370171AAD4DF3DBAB4569FC9ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5072A5B83DBA35ADFAEA77354067791C /* Build configuration list for PBXNativeTarget "Pods-tinyDict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF03BD450999111DBD3951688D2A4978 /* Debug */,
+				F878B11BA31DAF25BF865886B0D8ACCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDD598D97160FAFC23522D96D16607C /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84893E102A1A1FB8FAE0E269E0B3326A /* Debug */,
+				7C316EC1C9660FBD6475B6513DE61DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFBA974F33FEF43D0AAD80BEC22CF0C /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62829AD933BD85AD7DC3D72A39815DE /* Debug */,
+				FC1EFD51AE94F879736B9AD3FDC75916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC85F0446E0AE707CD2C21DBB647A3BC /* Build configuration list for PBXNativeTarget "UIApplication-ViewControllerHandy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AD86A8AE64939897B3DCD70F424207 /* Debug */,
+				36FA3057D8CD706C0DDB121EE87A8AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00B085BAAFDA99468141C2005C3875E /* Build configuration list for PBXNativeTarget "YYKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EB3B000B42BF386A15A0C0879B3E58 /* Debug */,
+				27669A4BAFE57FAE1465D184FCFBE5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE982675D04C334946ED5FFBE6800FE /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD3226830B69AB38A249C34EE882936 /* Debug */,
+				9524470C3EF05ADC6D7AB2DB5C9C832D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

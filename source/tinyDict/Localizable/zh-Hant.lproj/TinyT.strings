@@ -1,0 +1,124 @@
+/* 
+  TinyT.strings
+  tinyDict
+
+  Created by guangbool on 2017/4/20.
+  Copyright © 2017年 bool. All rights reserved.
+*/
+"Translate" = "翻譯";
+"TRANSLATE" = "翻譯";
+"COPY" = "拷貝";
+"MAIN ENTRANCE" = "主要功能";
+"TRANSLATE LIST" = "翻譯列表";
+"OTHER" = "其他";
+"Long press to copy info in the line" = "長按拷貝該行信息";
+"Translate quickly" = "快速翻譯";
+"Histories" = "歷史記錄";
+"Stars" = "收藏清單";
+"Recycle bin" = "回收站";
+"Preferences" = "偏好設定";
+"Share quickly" = "快速分享";
+"Contact us" = "聯繫我們";
+"Support tTranslator" = "讚美「小譯」";
+"About tTranslator" = "關於「小譯」";
+
+"SWIPE LEFT TO EDIT" = "左滑操作";
+"Delete" = "删除";
+"Star" = "收藏";
+"Unstar" = "不收藏";
+"Copy" = "拷貝";
+"Restore" = "回收";
+
+"Restore preferences" = "還原偏好設定";
+"YES, Restore" = "是的，還原偏好";
+"NO, cancel restore" = "算了，不還原";
+"MISC" = "綜合";
+"TRANSLATE LANGUAGES ORDER" = "翻譯語言順序";
+"Use the first language to translate when can't Auto-Detect" = "無法自動檢測語言時，則翻譯為優先順序高的語言";
+"Add language..." = "添加語言...";
+"Edit language order" = "編輯語言順序";
+"SELECTED LANGUAGES" = "已選語言";
+"%@ languages is limited, %@ remains" = "最多選擇%@種語言，還可以%@種";
+"MORE..." = "更多...";
+"RECORDS LIMIT" = "保存數量限制";
+"The limitations of history, starred and recycle bin all are setted" = "歷史、收藏、回收站清單都將設定為該數量限制";
+"Unlimited" = "不限制";
+"Impact feedback" = "觸感反饋";
+"Some limited records will be cleared, are you sure to change?" = "變更後一些記錄將會被清除，你確定要變更嗎？";
+"I am Sure" = "我确定";
+"Cancel" = "取消";
+"Done" = "完成";
+"Auto-Translate copied text" = "自動翻譯拷貝的文本";
+"Translate copied text automatically when display widget" = "顯示 widget 時，自動翻譯拷貝的文本";
+"Auto-Detect translate language" = "自動檢測翻譯語言";
+"fullname_lang_en" = "英語";
+"fullname_lang_zh" = "中文簡體";
+"fullname_lang_cht" = "中文繁體";
+"fullname_lang_ara" = "阿拉伯語";
+"fullname_lang_est" = "愛沙尼亞語";
+"fullname_lang_bul" = "保加利亞語";
+"fullname_lang_pl" = "波蘭語";
+"fullname_lang_dan" = "丹麥語";
+"fullname_lang_de" = "德語";
+"fullname_lang_ru" = "俄語";
+"fullname_lang_fra" = "法語";
+"fullname_lang_fin" = "芬蘭語";
+"fullname_lang_kor" = "朝鮮語";
+"fullname_lang_nl" = "荷蘭語";
+"fullname_lang_cs" = "捷克語";
+"fullname_lang_rom" = "羅馬尼亞語";
+"fullname_lang_pt" = "葡萄牙語";
+"fullname_lang_jp" = "日語";
+"fullname_lang_swe" = "瑞典語";
+"fullname_lang_slo" = "斯洛文尼亞語";
+"fullname_lang_th" = "泰語";
+"fullname_lang_spa" = "西班牙語";
+"fullname_lang_el" = "希臘語";
+"fullname_lang_hu" = "匈牙利語";
+"fullname_lang_it" = "義大利語";
+"fullname_lang_vie" = "越南語";
+"%@ lines" = "%@ 條";
+
+"Translate Detail" = "翻譯詳情";
+"Input words to translate..." = "輸入要翻譯的語句...";
+"Save last translation only"="只保存最近一次翻譯";
+"If translate repeatedly in this page, save the last one only"="如果在本次打開的頁面進行了多次翻譯，則只保存最後一次";
+"Copy source only"="只拷貝原文";
+"Copy translated result only"="只拷貝翻譯結果";
+"Copy source and result together"="同時拷貝原文和翻譯結果";
+
+"Share" = "分享";
+"Share something..." = "分享些什麼...";
+"Done" = "完成";
+"Insert source"="插入原文";
+"Insert translation"="插入翻譯結果";
+"Select one translation"="請選擇插入的翻譯";
+"Insert picture"="插入圖片";
+"Select picture from"="請選擇圖片獲取管道";
+"Reset"="重置";
+"Preview"="預覽";
+"Photo album"="相册";
+"Take photo"="拍照";
+"Menu" = "選單";
+"INSERT" = "插入";
+"ALIGNMENT" = "對齊方式";
+"Alignment" = "對齊方式";
+"Align current paragraph only" = "只設置當前段落的對齊";
+
+"Clear all" = "清除全部";
+"YES, clear all" = "是的，清除全部";
+
+"about_slogan" = "「小譯」讓翻譯更簡單有趣";
+"Share to friends" = "分享給朋友";
+"Acknowledge" = "致謝";
+"VERY APPRECIATE FOR BELOW PROJECTS" = "感謝以下項目的付出";
+
+"share_app_title" = "小譯 - 讓翻譯更簡單有趣";
+
+// Spotlight
+"QUICK TRANSLATE" = "快速翻譯";
+"QUICKTRANSLATE_KEYWORDS" = "翻譯,詞典,文字,英漢,有道,translate,dictionary,words,English,Chinese,youdao";
+"PASTE AND TRANSLATE" = "粘貼並翻譯";
+"PASTETRANSLATE_KEYWORDS" = "粘貼,翻譯,複製,文字,paste,translate,copy,words";
+"QUICK SHARE" = "快速分享";
+"QUICKSHARE_KEYWORDS" = "分享,文字,share,words";

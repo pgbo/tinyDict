@@ -1,0 +1,125 @@
+/* 
+  TinyT.strings
+  tinyDict
+
+  Created by guangbool on 2017/4/20.
+  Copyright © 2017年 bool. All rights reserved.
+*/
+"Translate" = "翻译";
+"TRANSLATE" = "翻译";
+"COPY" = "拷贝";
+"MAIN ENTRANCE" = "主要功能";
+"TRANSLATE LIST" = "翻译列表";
+"OTHER" = "其他";
+"Long press to copy info in the line" = "长按拷贝该行信息";
+"Translate quickly" = "快速翻译";
+"Histories" = "历史记录";
+"Stars" = "收藏列表";
+"Recycle bin" = "回收站";
+"Preferences" = "偏好设置";
+"Share quickly" = "快速分享";
+"Contact us" = "联系我们";
+"Support tTranslator" = "赞美「小译」";
+"About tTranslator" = "关于「小译」";
+
+"SWIPE LEFT TO EDIT" = "左滑操作";
+"Delete" = "删除";
+"Star" = "收藏";
+"Unstar" = "不收藏";
+"Copy" = "拷贝";
+"Restore" = "回收";
+
+"Restore preferences" = "还原偏好设置";
+"YES, Restore" = "是的，还原偏好";
+"NO, cancel restore" = "算了，不还原";
+"MISC" = "综合";
+"TRANSLATE LANGUAGES ORDER" = "翻译语言顺序";
+"Use the first language to translate when can't Auto-Detect" = "无法自动检测语言时，则翻译为优先级高的语言";
+"Add language..." = "添加语言...";
+"Edit language order" = "编辑语言顺序";
+"SELECTED LANGUAGES" = "已选语言";
+"%@ languages is limited, %@ remains" = "最多选择%@种语言，还可选%@种";
+"MORE..." = "更多...";
+"RECORDS LIMIT" = "保存数量限制";
+"The limitations of history, starred and recycle bin all are setted" = "历史、收藏、回收站列表都将设置为该数量限制";
+"Unlimited" = "不限制";
+"Impact feedback" = "触感反馈";
+"Some limited records will be cleared, are you sure to change?" = "变更后一些记录将会被清除，你确定要变更吗？";
+"I am Sure" = "我确定";
+"Cancel" = "取消";
+"Done" = "完成";
+"Auto-Translate copied text" = "自动翻译拷贝的文本";
+"Translate copied text automatically when display widget" = "显示 widget 时，自动翻译拷贝的文本";
+"Auto-Detect translate language" = "自动检测翻译语言";
+"fullname_lang_auto" = "自动";
+"fullname_lang_en" = "英语";
+"fullname_lang_zh" = "中文简体";
+"fullname_lang_cht" = "中文繁体";
+"fullname_lang_ara" = "阿拉伯语";
+"fullname_lang_est" = "爱沙尼亚语";
+"fullname_lang_bul" = "保加利亚语";
+"fullname_lang_pl" = "波兰语";
+"fullname_lang_dan" = "丹麦语";
+"fullname_lang_de" = "德语";
+"fullname_lang_ru" = "俄语";
+"fullname_lang_fra" = "法语";
+"fullname_lang_fin" = "芬兰语";
+"fullname_lang_kor" = "朝鲜语";
+"fullname_lang_nl" = "荷兰语";
+"fullname_lang_cs" = "捷克语";
+"fullname_lang_rom" = "罗马尼亚语";
+"fullname_lang_pt" = "葡萄牙语";
+"fullname_lang_jp" = "日语";
+"fullname_lang_swe" = "瑞典语";
+"fullname_lang_slo" = "斯洛文尼亚语";
+"fullname_lang_th" = "泰语";
+"fullname_lang_spa" = "西班牙语";
+"fullname_lang_el" = "希腊语";
+"fullname_lang_hu" = "匈牙利语";
+"fullname_lang_it" = "意大利语";
+"fullname_lang_vie" = "越南语";
+"%@ lines" = "%@ 条";
+
+"Translate Detail" = "翻译详情";
+"Input words to translate..." = "输入要翻译的语句...";
+"Save last translation only" = "只保存最近一次翻译";
+"If translate repeatedly in this page, save the last one only" = "如果在本次打开的页面进行了多次翻译，则只保存最后一次";
+"Copy source only" = "只拷贝原文";
+"Copy translated result only" = "只拷贝翻译结果";
+"Copy source and result together" = "同时拷贝原文和翻译结果";
+
+"Share" = "分享";
+"Share something..." = "分享些什么...";
+"Done" = "完成";
+"Insert source" = "插入原文";
+"Insert translation" = "插入翻译结果";
+"Select one translation" = "请选择插入的翻译";
+"Insert picture" = "插入图片";
+"Select picture from" = "请选择图片获取方式";
+"Reset" = "重置";
+"Preview" = "预览";
+"Photo album" = "相册";
+"Take photo" = "拍照";
+"Menu" = "菜单";
+"INSERT" = "插入";
+"ALIGNMENT" = "对齐方式";
+"Alignment" = "对齐方式";
+"Align current paragraph only" = "只设置当前段落的对齐";
+
+"Clear all" = "清除全部";
+"YES, clear all" = "是的，清除全部";
+
+"about_slogan" = "「小译」让翻译更简单有趣";
+"Share to friends" = "分享给朋友";
+"Acknowledge" = "致谢";
+"VERY APPRECIATE FOR BELOW PROJECTS" = "感谢以下项目的付出";
+
+"share_app_title" = "小译 - 让翻译更简单有趣";
+
+// Spotlight
+"QUICK TRANSLATE" = "快速翻译";
+"QUICKTRANSLATE_KEYWORDS" = "翻译,词典,文字,英汉,有道";
+"PASTE AND TRANSLATE" = "粘贴并翻译";
+"PASTETRANSLATE_KEYWORDS" = "粘贴,翻译,复制,文字";
+"QUICK SHARE" = "快速分享";
+"QUICKSHARE_KEYWORDS" = "分享,文字";

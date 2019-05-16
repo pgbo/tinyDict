@@ -1,0 +1,19 @@
+/* 
+  todayextension.strings
+  tinyDict
+
+  Created by guangbool on 2017/5/19.
+  Copyright © 2017年 bool. All rights reserved.
+*/
+
+"usage guide when compact" = "不知道怎麼用嗎？您可以：\n・展開widget，更多玩法\n・拷貝文字，即可在此查看翻譯結果";
+"usage guide when expanded" = "不知道怎麼用嗎？您可以：\n・拷貝文字，即可在此查看翻譯結果\n・輕點査詢圖標或輸入框，快速輸入並翻譯";
+"Enter text for translation..." = "輕點輸入文字進行翻譯...";
+"Records" = "記錄";
+"Stars" = "收藏";
+"Cancel" = "取消";
+"Inputing..." = "正在輸入...";
+"Input..." = "輸入...";
+"Translating..." = "翻譯中...";
+"The guy can't be translated!" = "😳這厮竟然翻譯不了！";
+"Click input field to begin input text" = "點擊輸入框開始輸入";

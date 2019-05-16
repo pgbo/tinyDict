@@ -1,0 +1,27 @@
+PODS:
+  - Aspects (1.4.1)
+  - BOOLoadMoreController (1.0.3)
+  - MGSwipeTableCell (1.5.6)
+  - UIApplication-ViewControllerHandy (1.0.0)
+  - UITextView+Placeholder (1.2.0)
+  - YYKeyboardManager (1.0.1)
+
+DEPENDENCIES:
+  - Aspects
+  - BOOLoadMoreController (= 1.0.3)
+  - MGSwipeTableCell
+  - UIApplication-ViewControllerHandy
+  - UITextView+Placeholder (~> 1.2)
+  - YYKeyboardManager
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BOOLoadMoreController: 190e6c28a18195efe2acb6a8911b685f549d2da6
+  MGSwipeTableCell: 616700eb0ffd1c611ba909066cb7fd739790a0a7
+  UIApplication-ViewControllerHandy: 0a1a7586a5fdffc96856a50d948f07703e56ee71
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  YYKeyboardManager: ff53d2e80d1808567a7f004028bd200d9469a89f
+
+PODFILE CHECKSUM: 5c5612352c0b47e40c4d749fa5adc08a7f696ddf
+
+COCOAPODS: 1.2.1

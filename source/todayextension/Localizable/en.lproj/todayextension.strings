@@ -1,0 +1,19 @@
+/* 
+  todayextension.strings
+  tinyDict
+
+  Created by guangbool on 2017/5/19.
+  Copyright © 2017年 bool. All rights reserved.
+*/
+
+"usage guide when compact" = "Don't know how to use? You can: \n・Expand widget, see more play!\n・Copy text, see the translation results here immediately";
+"usage guide when expanded" = "Don't know how to use? You can: \n・Copy text, see the translation results here immediately\n・Click query icon or input box, enter text and translate quickly";
+"Enter text for translation..." = "Enter text for translation...";
+"Records" = "Records";
+"Stars" = "Stars";
+"Cancel" = "Cancel";
+"Inputing..." = "Inputing...";
+"Input..." = "Input...";
+"Translating..." = "Translating...";
+"The guy can't be translated!" = "😳The guy can't be translated!";
+"Click input field to begin input text" = "Click input field to begin input text";

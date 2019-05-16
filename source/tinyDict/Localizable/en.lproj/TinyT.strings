@@ -1,0 +1,124 @@
+/* 
+  TinyT.strings
+  tinyDict
+
+  Created by guangbool on 2017/4/20.
+  Copyright © 2017年 bool. All rights reserved.
+*/
+"Translate" = "Translate";
+"TRANSLATE" = "TRANSLATE";
+"COPY" = "COPY";
+"MAIN ENTRANCE" = "MAIN ENTRANCE";
+"TRANSLATE LIST" = "TRANSLATE LIST";
+"OTHER" = "OTHER";
+"Long press to copy info in the line" = "Long press to copy info in the line";
+"Translate quickly" = "Translate quickly";
+"Histories" = "Histories";
+"Stars" = "Stars";
+"Recycle bin" = "Recycle bin";
+"Preferences" = "Preferences";
+"Share quickly" = "Share quickly";
+"Contact us" = "Contact us";
+"Support tTranslator" = "Support tTranslator";
+"About tTranslator" = "About tTranslator";
+
+"SWIPE LEFT TO EDIT" = "SWIPE LEFT TO EDIT";
+"Delete" = "Delete";
+"Star" = "Star";
+"Unstar" = "Unstar";
+"Copy" = "Copy";
+"Restore" = "Restore";
+
+"Restore preferences" = "Restore preferences";
+"YES, Restore" = "YES, restore";
+"NO, cancel restore" = "NO, cancel";
+"MISC" = "MISC";
+"TRANSLATE LANGUAGES ORDER" = "TRANSLATE LANGUAGES ORDER";
+"Use the first language to translate when can't Auto-Detect" = "Use the first language to translate when can't Auto-Detect";
+"Add language..." = "Add language...";
+"Edit language order" = "Edit language order";
+"SELECTED LANGUAGES" = "SELECTED LANGUAGES";
+"%@ languages is limited, %@ remains" = "%@ languages is limited, %@ remains";
+"MORE..." = "MORE...";
+"RECORDS LIMIT" = "RECORDS LIMIT";
+"The limitations of history, starred and recycle bin all are setted" = "The limitations of history, starred and recycle bin all are setted";
+"Unlimited" = "Unlimited";
+"Impact feedback" = "Impact feedback";
+"Some limited records will be cleared, are you sure to change?" = "Some limited records will be cleared, are you sure to change?";
+"I am Sure" = "I'm Sure";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Auto-Translate copied text" = "Auto-Translate copied text";
+"Translate copied text automatically when display widget" = "Translate copied text automatically when display widget";
+"Auto-Detect translate language" = "Auto-Detect translate language";
+"fullname_lang_en" = "Engilsh";
+"fullname_lang_zh" = "Simplified Chinese";
+"fullname_lang_cht" = "Traditional Chinese";
+"fullname_lang_ara" = "Arabic";
+"fullname_lang_est" = "Estonian";
+"fullname_lang_bul" = "Bulgarian";
+"fullname_lang_pl" = "Polish";
+"fullname_lang_dan" = "Danish";
+"fullname_lang_de" = "German";
+"fullname_lang_ru" = "Russian";
+"fullname_lang_fra" = "French";
+"fullname_lang_fin" = "Finnish";
+"fullname_lang_kor" = "Korean";
+"fullname_lang_nl" = "Dutch";
+"fullname_lang_cs" = "Czech";
+"fullname_lang_rom" = "Romanian";
+"fullname_lang_pt" = "Portuguese";
+"fullname_lang_jp" = "Japanese";
+"fullname_lang_swe" = "Swedish";
+"fullname_lang_slo" = "Slovenian";
+"fullname_lang_th" = "Thai";
+"fullname_lang_spa" = "Spanish";
+"fullname_lang_el" = "Greek";
+"fullname_lang_hu" = "Hungarian";
+"fullname_lang_it" = "Italian";
+"fullname_lang_vie" = "Vietnamese";
+"%@ lines" = "%@ lines";
+
+"Translate Detail" = "Detail";
+"Input words to translate..." = "Input words to translate...";
+"Save last translation only" = "Save last translation only";
+"If translate repeatedly in this page, save the last one only" = "If translate repeatedly in this page, save the last one only";
+"Copy source only" = "Copy source only";
+"Copy translated result only" = "Copy translated result only";
+"Copy source and result together" = "Copy source and result together";
+
+"Share" = "Share";
+"Share something..." = "Share something...";
+"Done" = "Done";
+"Insert source" = "Insert source";
+"Insert translation" = "Insert translation";
+"Select one translation" = "Select one translation";
+"Insert picture" = "Insert picture";
+"Select picture from" = "Select picture from";
+"Reset" = "Reset";
+"Preview" = "Preview";
+"Photo album" = "Photo album";
+"Take photo" = "Take photo";
+"Menu" = "Menu";
+"INSERT" = "INSERT";
+"ALIGNMENT" = "ALIGNMENT";
+"Alignment" = "Alignment";
+"Align current paragraph only" = "Align current paragraph only";
+
+"Clear all" = "Clear all";
+"YES, clear all" = "YES, clear all";
+
+"about_slogan" = "Translation is simple and funny";
+"Share to friends" = "Share to friends";
+"Acknowledge" = "Acknowledge";
+"VERY APPRECIATE FOR BELOW PROJECTS" = "VERY APPRECIATE FOR BELOW PROJECTS";
+
+"share_app_title" = "Make translation simple and funny";
+
+// Spotlight
+"QUICK TRANSLATE" = "QUICK TRANSLATE";
+"QUICKTRANSLATE_KEYWORDS" = "translate,dictionary,words,English,Chinese,youdao";
+"PASTE AND TRANSLATE" = "PASTE AND TRANSLATE";
+"PASTETRANSLATE_KEYWORDS" = "paste,translate,copy,words";
+"QUICK SHARE" = "QUICK SHARE";
+"QUICKSHARE_KEYWORDS" = "share,words";

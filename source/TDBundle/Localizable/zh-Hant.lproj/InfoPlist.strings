@@ -1,0 +1,8 @@
+/* Localized versions of Info.plist keys */
+CFBundleDisplayName = "小譯";
+NSCameraUsageDescription = "";
+NSPhotoLibraryUsageDescription = "";
+
+SHORTCUT_QUICKTRANSLATE = "快速翻譯";
+SHORTCUT_PASTETRANSLATE = "粘貼并翻譯";
+SHORTCUT_QUICKSHARE = "快速分享";
