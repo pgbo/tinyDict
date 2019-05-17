@@ -8,4 +8,4 @@ A handy and beautiful dict app. Quick translate in notifcation center and action
  - Support  translation sharing, translation is actually a way of playing;  
 
 ### Preview 
-![Preview...](/docs/preview.gif)
+<img src="/docs/preview.gif" height=600 />
