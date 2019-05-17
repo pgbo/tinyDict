@@ -1,5 +1,5 @@
 # tinyDict
-A handy and beautiful dict app. Quick translate in notifcation center and action extension. 
+A handy and beautiful dict app. Quick translate in notification center and action extension. 
 ### cool features. 
  - Direct translate in notification center 
  - Translate copied text in the notification center; 
