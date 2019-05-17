@@ -9,3 +9,9 @@ A handy and beautiful dict app. Quick translate in notification center and actio
 
 ### Preview 
 <img src="/docs/preview.gif" height=600 />
+
+### Can learn from here
+- widget develop
+- Modular, Component develop thought and practice.
+- Method swizzling practice.
+
