@@ -8,6 +8,6 @@ A handy and beautiful dict app. Quick translate in notifcation center and action
  - Support  translation sharing, translation is actually a way of playing;  
 
 ### Preview video
-<video id="video" controls="" preload="none" poster="docs/previewPoster.png">
-   <source id="mp4" src="docs/preview.mp4" type="video/mp4">
+<video id="video" controls="" preload="none" poster="/docs/previewPoster.png">
+   <source id="mp4" src="/docs/preview.mp4" type="video/mp4">
 </video>
