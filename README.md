@@ -11,6 +11,9 @@ A handy and beautiful dict app. Quick translate in notification center and actio
 ### Preview 
 <img src="/docs/preview.gif" height="600" />
 
+### Projects relationship
+<img src="/docs/tinydict_projs.png" />
+
 ### Can learn from here
 - widget develop
 - Modular, Component develop thought and practice.
